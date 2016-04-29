@@ -1,5 +1,6 @@
-logs/
-aliens/*
+/logs/
+/aliens/*.*
+/!aliens/your_aliens_go_here.txt
 /examples/customalien/build/
 /examples/customalien/dist/
 /examples/customalien/nbproject/private/
