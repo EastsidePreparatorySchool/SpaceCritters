@@ -1,2 +1,5 @@
-
 logs/
+aliens/*
+/examples/customalien/build/
+/examples/customalien/dist/
+/examples/customalien/nbproject/private/
