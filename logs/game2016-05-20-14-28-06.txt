@@ -1,0 +1,328 @@
+GameEngine: Starting thread
+GameEngineThread: Started
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineThread: Processing GameElement CONSTANT :randseed, 0
+GameEngineThread: Processing GameElement CONSTANT :gameMode, sc_play.json
+GameEngineThread: Processing GameElement CONSTANT :chatter, off
+GameEngineThread: Processing GameElement CONSTANT :filters, 
+GameEngineThread: Processing GameElement CONSTANT :pauseOnError, off
+GameEngineThread: Processing GameElement CONSTANT :autoStart, off
+GameEngineThread: Processing GameElement SPECIES stockaliens:AggressiveAlien, 
+GameEngineThread: Processing GameElement SPECIES stockaliens:Martian, 
+GameEngineThread: Processing GameElement SPECIES stockaliens:Venusian, 
+GameEngineThread: Processing GameElement SPECIES stockaliens:WeepingAngel, 
+GameEngineThread: Processing GameElement SPECIES stockaliens:Alf, 
+GameEngineThread: Processing GameElement SPECIES stockaliens:EmptyAlien, 
+GameEngineThread: Processing GameElement STAR stockelements:Sol, 
+GameEngineV1: Queueing command Ready
+GameEngineThread: Processing GameElement PLANET stockelements:Earth, 
+sg: Could not get constructor: Earth
+sg.addPlanet: behavior not found: Earth
+GameEngineThread: Processing GameElement STAR stockelements:ProximaCentauri, 
+GameEngineThread: Processing GameElement PLANET stockelements:Slathri, 
+sg: Could not get constructor: Slathri
+sg.addPlanet: behavior not found: Slathri
+GameEngineThread: Processing GameElement PLANET stockelements:Kukaro, 
+sg: Could not get constructor: Kukaro
+sg.addPlanet: behavior not found: Kukaro
+GameEngineThread: Processing GameElement RESIDENT stockelements:Elbubbians, 
+sg: Could not get constructor: Elbubbians
+sg.addSpecies: Error loading contructor for ephemera.eastsideprep.org:stockelements:Elbubbians
+sg.addSpecies: Error constructing class reference alien for ephemera.eastsideprep.org:stockelements:Elbubbians
+ac: Error constructing Alien
+sg: could not instantiate new ephemera.eastsideprep.org:stockelements:Elbubbians
+GameEngineThread: Processing GameElement STAR stockelements:AlphaCentauriA, 
+GameEngineThread: Processing GameElement STAR stockelements:AlphaCentauriB, 
+GameEngineThread: Processing GameElement STAR stockelements:BarnardsStar, 
+GameEngineThread: Processing GameElement STAR stockelements:Wolf359, 
+GameEngineThread: Processing GameElement STAR stockelements:Lalande21185, 
+GameEngineThread: Processing GameElement PLANET stockelements:Liloso, 
+sg: Could not get constructor: Liloso
+sg.addPlanet: behavior not found: Liloso
+GameEngineThread: Processing GameElement RESIDENT stockelements:Elbubbians, 
+ac: Error constructing Alien
+sg: could not instantiate new ephemera.eastsideprep.org:stockelements:Elbubbians
+GameEngineThread: Processing GameElement PLANET stockelements:Cerile, 
+sg: Could not get constructor: Cerile
+sg.addPlanet: behavior not found: Cerile
+GameEngineThread: Processing GameElement PLANET stockelements:Vorium, 
+sg: Could not get constructor: Vorium
+sg.addPlanet: behavior not found: Vorium
+GameEngineThread: Processing GameElement STAR stockelements:Sirius, 
+GameEngineThread: Processing GameElement PLANET stockelements:Leyec, 
+sg: Could not get constructor: Leyec
+sg.addPlanet: behavior not found: Leyec
+GameEngineThread: Processing GameElement RESIDENT stockelements:Ezkar, 
+sg: Could not get constructor: Ezkar
+sg.addSpecies: Error loading contructor for ephemera.eastsideprep.org:stockelements:Ezkar
+sg.addSpecies: Error constructing class reference alien for ephemera.eastsideprep.org:stockelements:Ezkar
+ac: Error constructing Alien
+sg: could not instantiate new ephemera.eastsideprep.org:stockelements:Ezkar
+GameEngineThread: Processing GameElement STAR stockelements:L726_8, 
+GameEngineThread: Processing GameElement STAR stockelements:Ross154, 
+GameEngineThread: Processing GameElement STAR stockelements:Ross248, 
+GameEngineThread: Processing GameElement PLANET stockelements:Petigi, 
+sg: Could not get constructor: Petigi
+sg.addPlanet: behavior not found: Petigi
+GameEngineThread: Processing GameElement STAR stockelements:EpsilonEridani, 
+GameEngineThread: Processing GameElement PLANET stockelements:RMack, 
+RMack planet behavior intialized.
+GameEngineThread: Processing GameElement RESIDENT stockelements:SysAds, 
+GameEngineThread: Processing GameElement STAR stockelements:Lacaille9352, 
+GameEngineThread: Processing GameElement STAR stockelements:Ross128, 
+GameEngineThread: Processing GameElement STAR stockelements:L789_6, 
+GameEngineThread: Processing GameElement STAR stockelements:Procyon, 
+GameEngineThread: Processing GameElement STAR stockelements:61Cygni, 
+GameEngineThread: Processing GameElement STAR stockelements:Struve2398, 
+GameEngineThread: Processing GameElement STAR stockelements:Groombridge34, 
+GameEngineThread: Processing GameElement STAR stockelements:G51_15, 
+GameEngineThread: Processing GameElement STAR stockelements:EpsilonIndi, 
+GameEngineThread: Processing GameElement STAR stockelements:TauCeti, 
+GameEngineThread: Processing GameElement STAR stockelements:L372_58, 
+GameEngineThread: Processing GameElement STAR stockelements:L725_32, 
+GameEngineThread: Processing GameElement STAR stockelements:LuytensStar, 
+GameEngineThread: Processing GameElement CONSTANT :lastAlienWins, false
+GameEngineThread: Processing GameElement CONSTANT :perSpeciesCap, 10000
+GameEngineThread: Processing GameElement CONSTANT :perSpeciesSpawnCap, 10000
+GameEngineThread: Processing GameElement CONSTANT :safeZoneRadius, 10
+GameEngineThread: Processing GameElement CONSTANT :iSaidNoFighting, true
+GameEngineThread: Processing GameElement CONSTANT :emptySpaceEnergy, 10
+GameEngineThread: Processing GameElement CONSTANT :maxTurns, 100000
+sg: Could not get constructor: ResidentAlien
+sg.addSpecies: Error loading contructor for Ephemera\GameEngine\dist\GameEngine.jar:gameengineinterfaces:ResidentAlien
+sg.addSpecies: Error constructing class reference alien for Ephemera\GameEngine\dist\GameEngine.jar:gameengineinterfaces:ResidentAlien
+sg: Could not get constructor: ResidentAlien
+sg.addSpecies: Error loading contructor for Ephemera\SpaceCritters\dist\lib\GameEngine.jar:gameengineinterfaces:ResidentAlien
+sg.addSpecies: Error constructing class reference alien for Ephemera\SpaceCritters\dist\lib\GameEngine.jar:gameengineinterfaces:ResidentAlien
+sg: Could not get constructor: MySpaceCritter
+sg.addSpecies: Error loading contructor for JavaLibrary9\dist\JavaLibrary9.jar::MySpaceCritter
+sg.addSpecies: Error constructing class reference alien for JavaLibrary9\dist\JavaLibrary9.jar::MySpaceCritter
+sg: Could not get constructor: ResidentAlien
+sg.addSpecies: Error loading contructor for SpaceCritters\lib\GameEngine.jar:gameengineinterfaces:ResidentAlien
+sg.addSpecies: Error constructing class reference alien for SpaceCritters\lib\GameEngine.jar:gameengineinterfaces:ResidentAlien
+RandSeed: -298321228
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command AddElement
+GameEngineV1: Queueing command Resume
+GameEngineThread: Processing GameElement ALIEN stockaliens:AggressiveAlien, null
+Engine reporting Spawn: ephemera.eastsideprep.org:stockaliens:AggressiveAlien(45D4B731) at (4,8) with TE: (1,1)
+GameEngineThread: Processing GameElement ALIEN stockaliens:Martian, null
+Engine reporting Spawn: ephemera.eastsideprep.org:stockaliens:Martian(6CC08050) at (6,10) with TE: (1,1)
+GameEngineThread: Processing GameElement ALIEN stockaliens:Venusian, null
+Engine reporting Spawn: ephemera.eastsideprep.org:stockaliens:Venusian(686C1D5C) at (10,8) with TE: (1,1)
+GameEngineThread: Processing GameElement ALIEN stockaliens:WeepingAngel, null
+Engine reporting Spawn: ephemera.eastsideprep.org:stockaliens:WeepingAngel(7A609A30) at (6,-8) with TE: (1,1)
+GameEngineThread: Processing GameElement ALIEN stockaliens:Alf, null
+Engine reporting Spawn: ephemera.eastsideprep.org:stockaliens:Alf(53DC65DC) at (0,-6) with TE: (1,1)
+GameEngineThread: Processing GameElement ALIEN stockaliens:EmptyAlien, null
+Engine reporting Spawn: ephemera.eastsideprep.org:stockaliens:EmptyAlien(3B76ADF7) at (-8,3) with TE: (1,1)
+GameEngineThread: Processing GameElement ALIEN gameengineinterfaces:ResidentAlien, null
+ac: Error constructing Alien
+sg: could not instantiate new Ephemera\GameEngine\dist\GameEngine.jar:gameengineinterfaces:ResidentAlien
+GameEngineThread: Processing GameElement ALIEN gameengineinterfaces:ResidentAlien, null
+ac: Error constructing Alien
+sg: could not instantiate new Ephemera\SpaceCritters\dist\lib\GameEngine.jar:gameengineinterfaces:ResidentAlien
+GameEngineThread: Processing GameElement ALIEN :MySpaceCritter, null
+ac: Error constructing Alien
+sg: could not instantiate new JavaLibrary9\dist\JavaLibrary9.jar::MySpaceCritter
+GameEngineThread: Processing GameElement ALIEN gameengineinterfaces:ResidentAlien, null
+ac: Error constructing Alien
+sg: could not instantiate new SpaceCritters\lib\GameEngine.jar:gameengineinterfaces:ResidentAlien
+GameEngineThread: Resuming
+---------------------------------- Game segment starts here:
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #1 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Alien ephemera.eastsideprep.org:stockaliens:Martian(6CC08050): AC: Fight violation with P:1 (6,10) E:1.0 T:1
+Alien ephemera.eastsideprep.org:stockaliens:Martian(6CC08050): Death for unhandled exception in getAction(): alieninterfaces.NotEnoughEnergyException with T:1 and E:1 during turn:2
+Engine reporting death: ephemera.eastsideprep.org:stockaliens:Martian(6CC08050) at (6,10) with TE: (1,0)
+Turn #2 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #3 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #4 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #5 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #6 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #7 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #8 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #9 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #10 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #11 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #12 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #13 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #14 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #15 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #16 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #17 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #18 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #19 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #20 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #21 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #22 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #23 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #24 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #25 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #26 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #27 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #28 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #29 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #30 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #31 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #32 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #33 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #34 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #35 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #36 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #37 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #38 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #39 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #40 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #41 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #42 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #43 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #44 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #45 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #46 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #47 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #48 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #49 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #50 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #51 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #52 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #53 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #54 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #55 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #56 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #57 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #58 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #59 complete.
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #60 complete.
+GameEngineV1: Queueing command Pause
+Unhandled exception in showMove(): java.lang.NullPointerException
+Turn #61 complete.
+GameEngineThread: Pausing
+GameEngineV1: Queueing command KillElement
+GameEngineThread: Processing Kill of GameElement ALIEN stockaliens:AggressiveAlien, null
+Alien ephemera.eastsideprep.org:stockaliens:AggressiveAlien(45D4B731): Death by shell selection with T:1 and E:11 during turn:62
+Engine reporting death: ephemera.eastsideprep.org:stockaliens:AggressiveAlien(45D4B731) at (8,17) with TE: (1,0)
+GameEngineV1: Queueing command End
