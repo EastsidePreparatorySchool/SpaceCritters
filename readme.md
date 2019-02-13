@@ -17,33 +17,33 @@ Next, the game asks each alien whether it wants to take an action. Aliens can lo
 
 To make an alien, your class implements the Alien interface. Let’s take a look at it:
 
-public interface Alien {
+	public interface Alien {
 
-    void init(Context ctx, int id, int parent, String message);
+    	void init(Context ctx, int id, int parent, String message);
 
 This method is called right after the object is created. The game passes along a context – a handle to the game, to do things, a unique id for this alien, the id of the parent (if it was spawned by one), and an optional message from a parent. Aliens must store the context in a member variable, they will need it. Nothing else is required in this method. 
 
-    void communicate();
+    	void communicate();
 
 In this method, the alien can use the context object to send messages to whoever is ready to receive them within a certain radius.
 
-    void receive(String[] messages);
+    	void receive(String[] messages);
 
 In this method, the alien receives all the messages for which it was in range. This includes messages from other alien species – if you don’t want to be overheard, better encrypt!
 
-    Vector2 getMove();
+    	Vector2 getMove();
 
 Here, an alien decides whether to move, and where. A Vector2 is simply a tuple of x and y. For complex aliens, this vector is an acceleration vector, which changes their current velocity and thereby their orbit.
 
-    Action getAction();
+    	Action getAction();
 
 Aliens can return actions from this method, after carefull reviewing things that might influence their decision – such as energy, tech, who is around them, what have they heard etc.
 
-    void processResults();
+    	void processResults();
 
 In this method, aliens are given a chance to think about what happens in this turn. Nothing is required.
 
-}
+	}
 
 
 To make things easier at the beginning, every method is allowed to simply have one line of code:
@@ -52,38 +52,38 @@ To make things easier at the beginning, every method is allowed to simply have o
 
 In fact, the EmpyAlien is just that:
 
-public class EmptyAlien implements Alien {
+	public class EmptyAlien implements Alien {
 
-    @Override
-    public void init(Context ctx, int id, int parent, String message) {
-        throw new UnsupportedOperationException("Not supported yet."); 
-    }
+   		@Override
+    		public void init(Context ctx, int id, int parent, String message) {
+	    	    	throw new UnsupportedOperationException("Not supported yet."); 
+    		}
 
-    @Override
-    public void communicate() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    		@Override
+    		public void communicate() {
+ 	   	    	throw new UnsupportedOperationException("Not supported yet.");
+    		}
 
-    @Override
-    public void receive(String[] messages) {
-        throw new UnsupportedOperationException("Not supported yet."); 
-    }
+	    	@Override
+    		public void receive(String[] messages) {
+        		throw new UnsupportedOperationException("Not supported yet."); 
+    		}
 
-    @Override
-    public Direction getMove() {
-        throw new UnsupportedOperationException("Not supported yet."); 
-    }
+	    	@Override
+    		public Direction getMove() {
+        		throw new UnsupportedOperationException("Not supported yet."); 
+    		}
 
-    @Override
-    public Action getAction() {
-        throw new UnsupportedOperationException("Not supported yet."); 
-    }
+	    	@Override
+    		public Action getAction() {
+        		throw new UnsupportedOperationException("Not supported yet."); 
+    		}
 
-    @Override
-    public void processResults() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-}
+	    	@Override
+    		public void processResults() {
+        		throw new UnsupportedOperationException("Not supported yet.");
+    		}
+	}
 
 
 SpaceCritters is implemented as a web server. In some future, we will run it at school and you will be able to upload your alien to play with 
