@@ -1,5 +1,7 @@
 # Introduction to SpaceCritters
 
+![A SpaceCritters game in progress](/game.png)
+
 SpaceCritters is an agent-based simulation game. That’s quite the term, but it really only means that YOU write an agent – a Java component implementing an interface to behave like an “Alien” – that is then injected into a big simulation where it can frolic in a two-dimensional space with other aliens.
 
 You alien lives on a grid, 5000x5000 squares. Also on the grid are some stars and planets – loosely based on our sun and the stars within a 25-lightyear-sphere around us. Aliens can move freely in this grid – although they must take care not to move into a star, stand in the way of a planet, or be attacked by other aliens. There are two kind of alien – simple and complex. The differ in the way they move, see below.
