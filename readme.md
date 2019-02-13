@@ -91,7 +91,8 @@ In fact, the EmpyAlien is just that:
 SpaceCritters is implemented as a web server. In some future, we will run it at school and you will be able to upload your alien to play with 
 other aliens, but we are not there yet. Meanwhile, you can go to https://github.com/EastsidePreparatorySchool/SpaceCritters and download the
  zip file using the green button on the right. Extract all, and import the inner zip file / project "zerg.zip" into NetBeans. Pick a name for your new alien, make sure its class-name
- ends in “Alien” Then Right-click the new Zerg project to rename it. Then right-click, refactor, rename the zerg package, then the class. The
+ ends in “Alien” Then Right-click the new Zerg project to rename it. The class is in the default package and needs to stay there, please don't rename 
+the package, and also don't create a new one. Then refactor/rename the class. The
  project contains a number of libraries which are in fact the whole game server. When you “run” your alien, it will start the server but not other
  than a number of messages, not much will happen. Open a browser (SpaceCritters was tested in Chrome, Safari, and Edge), enter “localhost:8080” as
  the address, and hit enter. The splash screen for the game should load, and after 5 seconds you should see the main lobby. Click on the link 
