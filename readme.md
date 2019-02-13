@@ -1,4 +1,4 @@
-#Introduction to SpaceCritters
+# Introduction to SpaceCritters
 
 SpaceCritters is an agent-based simulation game. That’s quite the term, but it really only means that YOU write an agent – a Java component implementing an interface to behave like an “Alien” – that is then injected into a big simulation where it can frolic in a two-dimensional space with other aliens.
 
