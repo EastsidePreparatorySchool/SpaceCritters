@@ -2,28 +2,28 @@
 
 ![A SpaceCritters game in progress](/game.png)
 
-SpaceCritters is an agent-based simulation game. Thatís quite the term, but it really only means that YOU write an agent ñ a Java component implementing an interface to behave like an ìAlienî ñ that is then injected into a big simulation where it can frolic in a two-dimensional space with other aliens.
+SpaceCritters is an agent-based simulation game. That‚Äôs quite the term, but it really only means that YOU write an agent ‚Äì a Java component implementing an interface to behave like an ‚ÄúAlien‚Äù ‚Äì that is then injected into a big simulation where it can frolic in a two-dimensional space with other aliens.
 
-Your alien lives on a grid, 5000x5000 squares. Also on the grid are some stars and planets ñ loosely based on our sun and the stars within a 25-lightyear-sphere around us. Aliens can move freely in this grid ñ although they must take care not to move into a star, stand in the way of a planet, or be attacked by other aliens. There are two kind of alien ñ simple and complex. The differ in the way they move, see below.
+Your alien lives on a grid, 5000x5000 squares. Also on the grid are some stars and planets ‚Äì loosely based on our sun and the stars within a 25-lightyear-sphere around us. Aliens can move freely in this grid ‚Äì although they must take care not to move into a star, stand in the way of a planet, or be attacked by other aliens. There are two kind of alien ‚Äì simple and complex. They differ in the way they move, see below.
 
-Aliens have two attributes controlled by the game ñ a level of energy, and a level of technology. Aliens can take action to gain energy, or to research more technology, among other actions. If an alien runs out of energy, it dies. But never fear, aliens can also spawn new instances of themselves if they have enough energy. Better save up!
+Aliens have two attributes controlled by the game ‚Äì a level of energy, and a level of technology. Aliens can take action to gain energy, or to research more technology, among other actions. If an alien runs out of energy, it dies. But never fear, aliens can also spawn new instances of themselves if they have enough energy. Better save up!
 
 The game has turns. In each turn, there are multiple phases, the most important of which are:
 
 1) Moving
 2) Actions
 
-In the moving phase, each alien is asked whether it wants to move. It can look around using a kind of radar (the reach depends on its level of technology), and it can make a decision to move a number of spots in any direction. The game gathers all moves from all aliens, and updates their position. Simple aliens move in integer spots in x and y directions, complex aliens behave quite differently ñ they are in elliptical orbits around stars or planets, and a move for the is an acceleration in a direction, changing their orbit (or taking them out on a non-bound trajectory). Aliens who leave the playing field, die.
+In the moving phase, each alien is asked whether it wants to move. It can look around using a kind of radar (the reach depends on its level of technology), and it can make a decision to move a number of spots in any direction. The game gathers all moves from all aliens, and updates their position. Simple aliens move in integer spots in x and y directions, complex aliens behave quite differently ‚Äì they are in elliptical orbits around stars or planets, and a move for the is an acceleration in a direction, changing their orbit (or taking them out on a non-bound trajectory). Aliens who leave the playing field, die.
 
 Next, the game asks each alien whether it wants to take an action. Aliens can look at how much energy and technology they have, and then decide to take one of a few actions such as gaining energy, researching technology, fighting other aliens on the same spot as them, trading with them (but also being prepared to defend themselves in a fight), landing on a planet, or taking off from a planet.
 
-To make an alien, your class implements the Alien interface. Letís take a look at it:
+To make an alien, your class implements the Alien interface. Let‚Äôs take a look at it:
 
 	public interface Alien {
 
     	void init(Context ctx, int id, int parent, String message);
 
-This method is called right after the object is created. The game passes along a context ñ a handle to the game, to do things, a unique id for this alien, the id of the parent (if it was spawned by one), and an optional message from a parent. Aliens must store the context in a member variable, they will need it. Nothing else is required in this method. 
+This method is called right after the object is created. The game passes along a context ‚Äì a handle to the game, to do things, a unique id for this alien, the id of the parent (if it was spawned by one), and an optional message from a parent. Aliens must store the context in a member variable, they will need it. Nothing else is required in this method. 
 
     	void communicate();
 
@@ -31,7 +31,7 @@ In this method, the alien can use the context object to send messages to whoever
 
     	void receive(String[] messages);
 
-In this method, the alien receives all the messages for which it was in range. This includes messages from other alien species ñ if you donít want to be overheard, better encrypt!
+In this method, the alien receives all the messages for which it was in range. This includes messages from other alien species ‚Äì if you don‚Äôt want to be overheard, better encrypt!
 
     	Vector2 getMove();
 
@@ -39,7 +39,7 @@ Here, an alien decides whether to move, and where. A Vector2 is simply a tuple o
 
     	Action getAction();
 
-Aliens can return actions from this method, after carefull reviewing things that might influence their decision ñ such as energy, tech, who is around them, what have they heard etc.
+Aliens can return actions from this method, after carefull reviewing things that might influence their decision ‚Äì such as energy, tech, who is around them, what have they heard etc.
 
     	void processResults();
 
@@ -91,15 +91,15 @@ In fact, the EmpyAlien is just that:
 SpaceCritters is implemented as a web server. In some future, we will run it at school and you will be able to upload your alien to play with 
 other aliens, but we are not there yet. Meanwhile, you can go to https://github.com/EastsidePreparatorySchool/SpaceCritters and download the
  zip file using the green button on the right. Extract all, and import the inner zip file / project "zerg.zip" into NetBeans. Pick a name for your new alien, make sure its class-name
- ends in ìAlienî Then Right-click the new Zerg project to rename it. The class is in the default package and needs to stay there, please don't rename 
+ ends in ‚ÄúAlien‚Äù Then Right-click the new Zerg project to rename it. The class is in the default package and needs to stay there, please don't rename 
 the package, and also don't create a new one. Then refactor/rename the class. The
- project contains a number of libraries which are in fact the whole game server. When you ìrunî your alien, it will start the server but not other
- than a number of messages, not much will happen. Open a browser (SpaceCritters was tested in Chrome, Safari, and Edge), enter ìlocalhost:8080î as
+ project contains a number of libraries which are in fact the whole game server. When you ‚Äúrun‚Äù your alien, it will start the server but not other
+ than a number of messages, not much will happen. Open a browser (SpaceCritters was tested in Chrome, Safari, and Edge), enter ‚Äúlocalhost:8080‚Äù as
  the address, and hit enter. The splash screen for the game should load, and after 5 seconds you should see the main lobby. Click on the link 
-for ìmainî to attach to that game. You should have a new tab with a grid, stars, and at least a voyager alien ready to pursue its orbit around the sun.
+for ‚Äúmain‚Äù to attach to that game. You should have a new tab with a grid, stars, and at least a voyager alien ready to pursue its orbit around the sun.
  Click start to start the game. Your alien should be in the list on the right, pause the game and click its checkbox, then start the game again to 
 bring it alive. It will be a small box, like the other aliens. 
 
-Thatís all for now Ö enjoy playing. Let me know of errors in this document, or any problems with the game.
+That‚Äôs all for now ‚Ä¶ enjoy playing. Let me know of errors in this document, or any problems with the game.
 
 GM
